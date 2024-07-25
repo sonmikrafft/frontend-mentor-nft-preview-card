@@ -1,0 +1,45 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  text-align: left;
+  font-size: $font-m;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: $font-weight-s;
+  color: $white;
+  line-height: 1.5;
+
+  &.noscroll {
+    overflow: hidden;
+  }
+
+  h1 {
+    font-weight: $font-weight-l;
+  }
+
+  p {
+    margin: 0;
+    opacity: 70%;
+  }
+
+  b {
+    font-weight: $font-weight-m;
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    color: $very-dark-blue-main-bg;
+
+    a {
+      color: $cyan;
+    }
+  }
+}

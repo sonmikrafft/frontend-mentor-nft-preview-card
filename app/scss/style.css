@@ -1,0 +1,41 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  text-align: left;
+  font-size: 1.125rem;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 300;
+  color: hsl(0, 0%, 100%);
+  line-height: 1.5;
+}
+body.noscroll {
+  overflow: hidden;
+}
+body h1 {
+  font-weight: 600;
+}
+body p {
+  margin: 0;
+  opacity: 70%;
+}
+body b {
+  font-weight: 400;
+}
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+  color: hsl(217, 54%, 11%);
+}
+body .attribution a {
+  color: hsl(178, 100%, 50%);
+}
+
+/*# sourceMappingURL=style.css.map */
